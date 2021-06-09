@@ -1,13 +1,13 @@
 import './App.css';
-import Cardcontainer from './CarsCard';
-import Header from './Header';
+import Carscontainer from './components /CarsContainer';
+import Header from './components /Header';
 
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Cardcontainer/>
+      <Carscontainer/>
     </div>
   );
 }

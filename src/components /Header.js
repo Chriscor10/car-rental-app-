@@ -4,7 +4,7 @@ function Header (){
     return(
         <div className="text">
         <h1>Flatiron Car Rental</h1>
-        <p>Renting cars</p>
+        <h2>Renting cars</h2>
         </div>
     )
 }
