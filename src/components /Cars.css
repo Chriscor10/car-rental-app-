@@ -4,5 +4,17 @@
     margin: 10px;
     text-align: center;
     line-height: 1.5;
-    border: 10px solid rgb(150, 29, 29);
+    border: 10px solid rgb(105, 105, 105);
+  }
+
+  .rent-button {
+    background-color: #969191; color: black;; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 5px;
   }

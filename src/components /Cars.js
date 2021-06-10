@@ -1,8 +1,12 @@
 import React from 'react';
 import './Cars.css'
 
-function Cars({cars}) {
+function Cars({cars,deleteCar}) {
 const { id, brand, model, year, img } = cars
+
+    function handleRentcar() {
+        deleteCar(id)
+    }
 
 
     return (
@@ -11,6 +15,7 @@ const { id, brand, model, year, img } = cars
             <div className="Cars-details">
                 <p>{model}</p>
                 <p>{year}</p>
+                <button className="rent-button" onClick={handleRentcar} type="submit">Rent me</button>
             </div>
         </div>
     )
