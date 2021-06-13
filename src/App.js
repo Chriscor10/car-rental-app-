@@ -1,15 +1,24 @@
 import './App.css';
 import Carscontainer from './components /CarsContainer';
-import Header from './components /Header';
+import CarsDetails from './components /CarsDetails.js/CarsDetails';
+import { Switch, Route } from  "react-router-dom";
+import Formcontainer from './components /FormContainer';
+import Home from './components /Home/Home';
 
 
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
+    <main className="App">
+      <Switch>
+        <Route path="/">
+          </Route>
+          {/* <Home/>
       <Carscontainer/>
-      </div>
+      <Formcontainer/>
+      <CarsDetails/> */}
+      </Switch>
+     </main>
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import './Cars.css'
 
 function Cars({cars,deleteCar}) {
-const { id, brand, model, year, img } = cars
+const { id, brand, model, year} = cars
 
     function handleRentcar() {
         deleteCar(id)

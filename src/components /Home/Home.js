@@ -1,13 +1,14 @@
 import React from 'react';
-
-function Header (){
+import RentalCarLG from './RentalCarLG.jpg'
+function Home (){
     return(
         <div className="text">
         <h1>Flatiron Car Rental</h1>
         <h2>Renting cars</h2>
+        <img alt="Car Rental" src={RentalCarLG}/>
         </div>
     )
 }
 
-export default Header;
+export default Home;
 

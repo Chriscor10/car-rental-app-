@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import CarForm from './CarForm/CarForm';
+// import CarForm from './CarForm/CarForm';
 import Cars from './Cars';
 import './CarsContainer.css'
 
@@ -26,34 +26,32 @@ useEffect (() => {
         })
     }
 
-    function addCar(car) {
-        const config = {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(car)
-        }
+    // function addCar(car) {
+    //     const config = {
+    //         method: "POST",
+    //         headers: {
+    //             "Content-Type": "application/json",
+    //         },
+    //         body: JSON.stringify(car)
+    //     }
 
-        fetch(BASE_URL, config)
-        .then(r => r.json())
-        .then(carRenting => {
-            const carRent = [...cars, carRenting];
-            setCars(carRent);
-        })
-    }
+    //     fetch(BASE_URL, config)
+    //     .then(r => r.json())
+    //     .then(carRenting => {
+    //         const carRent = [...cars, carRenting];
+    //         setCars(carRent);
+    //     })
+    // }
 
 return (
         <div className="Car-container">
-           
-            <CarForm addCar={addCar}/>
-            
+            {/* <CarForm addCar={addCar}/> */}
            { cars.map(cars => {
             return <Cars 
                     key={cars.id}
                     cars={cars}
                     deleteCar={deleteCar}
-                    addCar={addCar}
+                    // addCar={addCar}
                     />
            })}
            
