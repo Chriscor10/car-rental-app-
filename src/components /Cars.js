@@ -2,7 +2,7 @@ import React from 'react';
 import './Cars.css'
 
 function Cars({cars,deleteCar}) {
-const { id, brand, model, year} = cars
+const { id, brand, model, year, image} = cars
 
     function handleRentcar() {
         deleteCar(id)
@@ -15,6 +15,7 @@ const { id, brand, model, year} = cars
             <div className="Cars-details">
                 <p>{model}</p>
                 <p>{year}</p>
+                <img src={image}/>
                 <button className="rent-button" onClick={handleRentcar} type="submit">Rent me</button>
             </div>
         </div>

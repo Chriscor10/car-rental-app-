@@ -3,8 +3,8 @@ import RentalCarLG from './RentalCarLG.jpg'
 function Home (){
     return(
         <div className="text">
-        <h1>Flatiron Car Rental</h1>
-        <h2>Renting cars</h2>
+        <h1>Corona's Car Rental</h1>
+        <h2>Renting Cars Since 1998</h2>
         <img alt="Car Rental" src={RentalCarLG}/>
         </div>
     )

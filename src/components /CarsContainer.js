@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Cars from './Cars';
 import './CarsContainer.css'
 
-const BASE_URL = "http://localhost:3001/Cars";
+const BASE_URL = "http://localhost:3000/Cars";
 
 function Carscontainer () {
 const [cars, setCars] = useState([])
