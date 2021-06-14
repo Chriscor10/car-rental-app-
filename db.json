@@ -34,6 +34,20 @@
       "model": "Rav4",
       "year": "2019",
       "image": "https://cars.usnews.com/static/images/Auto/izmo/i110536476/2019_toyota_rav4_angularfront.jpg"
+    },
+    {
+      "brand": "Mini",
+      "model": "Cooper",
+      "year": "2021",
+      "image": "https://cdn.motor1.com/images/mgl/Bozvm/s3/mini-john-cooper-works-gp-2020.jpg",
+      "id": 6
+    },
+    {
+      "brand": "Porsche",
+      "model": "Carrera S",
+      "year": "2021",
+      "image": "https://s.aolcdn.com/commerce/autodata/images/USD10PRC011A021001.jpg",
+      "id": 7
     }
   ]
 }

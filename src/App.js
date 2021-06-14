@@ -1,10 +1,11 @@
 import './App.css';
 import { Switch, Route} from  "react-router-dom";
-import Carscontainer from './components /CarsContainer';
 import CarsDetails from './components /CarsDetails.js/CarsDetails';
+import Carscontainer from './components /CarsContainer';
 import Formcontainer from './components /FormContainer';
 import Home from './components /Home/Home';
 import NavBar from './components /NavBar/NavBar';
+import Footer from './components /Footer/Footer';
 
 
 
@@ -22,11 +23,14 @@ function App() {
           <Route exact path="/Rent-with-us">
           <Formcontainer/>
           </Route>
-          <Route exact path="/Car-detail">
+          <Route exact path="/Cars-detail">
           <CarsDetails/>
           </Route>
-          </Switch>
-          {/* <CarsDetails/> */}
+          <Route exact path="/Cars/:id">
+          <CarsDetails/>
+          </Route>
+          </Switch> 
+          <Footer/>
      </main>
   );
 }

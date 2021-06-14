@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import CarForm from './CarForm/CarForm';
-import Cars from './Cars';
+import Cars from './Cars/Cars'
 import './CarsContainer.css'
 
 const BASE_URL = "http://localhost:3000/Cars";

@@ -7,6 +7,7 @@ function CarForm({addCar}) {
         brand: "",
         model: "",
         year: "",
+        image: "",
     })
 
     function handleNewCar (event) {
@@ -52,6 +53,15 @@ function CarForm({addCar}) {
                     name="year" 
                     type="text" 
                     value={formState.year} 
+                    onChange={handleNewCar}
+                    />
+                </label>
+                <label>
+                    Image:
+                    <input 
+                    name="image" 
+                    type="text" 
+                    value={formState.image} 
                     onChange={handleNewCar}
                     />
                 </label>

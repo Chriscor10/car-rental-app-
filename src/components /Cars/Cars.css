@@ -13,19 +13,16 @@
     color: rgb(0, 0, 0);
     padding: 5px;
     text-align: center;
-    text-decoration: none;
-    display:left;
-    font-size: 25px;
+    font-size: 25px; 
+    margin: 0;
+    position: left;
     border-radius: 5px;
   }
 
   .Cars img {
-    border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
+    padding: 10px;
     width: 500px;
-    height: auto;
-    position: center;
-    /* left: 100px; */
+    margin: 0;
     border: 3px solid #000000;
   }

@@ -1,20 +1,29 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import './CarsDetails.css'
 
-function CarsDetails() {
-    const [cars, setCars] = useState( {
-        "id": 1,
-        "brand": "Toyota",
-        "model": "Camry",
-        "year": "2019",
-        "image": "https://smartcdn.prod.postmedia.digital/driving/wp-content/uploads/2021/05/chrome-image-417908.png"
-      })
+function CarsDetails({deleteCar}) {
+    const [cars, setCars] = useState([])
+    const params = useParams();
+    const id = params.id;
+    const URL = `http://localhost:3000/Cars/${id}`;
 
-      console.log(cars)
+    
+    useEffect (() => {
+        fetch(URL)
+        .then(r => r.json())
+        .then(CarsData => setCars(CarsData))
+        }, [])
+
+
     return (
-        <div>
-            <img src={cars.image}/>
+        <div className="cars-details">
+           <h1>{cars.brand}</h1>
+           <h2>{cars.model}</h2>
+           <h3>{cars.year}</h3>
+           <img alt="rent" src={cars.image}/>
         </div>
     )
 }
 
-export default CarsDetails
+ export default CarsDetails
