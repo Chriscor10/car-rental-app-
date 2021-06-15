@@ -19,4 +19,11 @@ nav a.active {
     border-bottom: 3px solid red;
 }
 
-
+nav img {
+    display: block;
+    margin-left: 850px;
+    margin-right: 500px;
+    border-radius: 10px;
+    padding: 1px;
+    width: 200px;
+}

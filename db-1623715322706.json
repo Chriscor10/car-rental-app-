@@ -48,27 +48,6 @@
       "year": "2021",
       "image": "https://s.aolcdn.com/commerce/autodata/images/USD10PRC011A021001.jpg",
       "id": 7
-    },
-    {
-      "brand": "Porsche ",
-      "model": "Cayenne GTS",
-      "year": "2021",
-      "image": "https://di-uploads-pod15.dealerinspire.com/porscheoffarmingtonhills/uploads/2020/11/2021-Porsche-Cayenne-GTS.jpg",
-      "id": 8
-    },
-    {
-      "brand": "Toyota",
-      "model": "Corolla SE",
-      "year": "2020",
-      "image": "https://cdn.jdpower.com/ChromeImageGallery/Expanded/Transparent/640/2020TOC04_640/2020TOC040007_640_01.png",
-      "id": 9
-    },
-    {
-      "brand": "Chevrolet",
-      "model": "Tahoe ",
-      "year": "2021",
-      "image": "https://es.chevrolet.com/content/dam/chevrolet/na/us/english/vdc-collections/2021/crossovers-suv/tahoe/01-images/2021-t1ucf-cc10706-1sp-gs6-trimselector.png?imwidth=960",
-      "id": 10
     }
   ]
 }
